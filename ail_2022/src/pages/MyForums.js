@@ -31,7 +31,7 @@ function MyForums({ data }) {
                                     <td>
                                         <button className="btn btn-warning text-white" data-bs-toggle="modal"
                                             data-bs-target="#modalEdit"><FaEdit /></button>
-                                        <button className="btn btn-danger text-white"><FaTrashAlt /></button>
+                                        {/*<button className="btn btn-danger text-white"><FaTrashAlt /></button>*/}
                                     </td>
                                     <td style={{ width: "10rem" }}>{element.forum_name}</td>
                                     <td style={{ width: "10rem" }}>{element.date}</td>

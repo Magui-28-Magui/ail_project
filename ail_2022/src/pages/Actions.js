@@ -1,7 +1,6 @@
 import React from 'react'
 import LongText from "../components/LongText";
 import Modal from "../components/Modal";
-//import { FaEdit, FaTrashAlt } from "react-icons/fa";
 
 function Actions({ data }) {
     return (
