@@ -10,6 +10,7 @@ import History from "./History";
 import MyForums from "./MyForums";
 import { ImTable, ImHistory } from "react-icons/im";
 import { AiFillDatabase } from "react-icons/ai";
+import axios from "axios";
 
 export default function Home() {
     const [active, setActive] = useState(0);
@@ -20,6 +21,10 @@ export default function Home() {
             setActive(index);
         }
     };
+
+    //const getMetricsSelect =()=>{
+    //    axios.get
+    //};
 
     return (
         <div> 
